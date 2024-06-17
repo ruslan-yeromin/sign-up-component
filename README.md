@@ -58,10 +58,6 @@
 
 Upon registration, an OTP password will be sent to the provided email for verification. Make sure to configure your Resend service provider settings in the `.env` file.
 
-## 🌐 Demo
-
-Check out the live demo [here](link_to_your_demo).
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
