@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌟 Responsive Registration Form Component
 
-## Getting Started
+This project features a fully responsive registration form component for a React and Next.js application. On PC, the form appears as a modal window, while on mobile phones, it slides up as a drawer that can be closed with a swipe. The project also supports a dark theme for better user experience.
 
-First, run the development server:
+![Demo Video/GIF](link_to_your_demo)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Fully Responsive**: Works seamlessly across different screen sizes.
+- **Modal on PC**: Opens as a modal window for desktop users.
+- **Drawer on Mobile**: Appears as a drawer from the bottom on mobile devices.
+- **OTP Verification**: Sends a One-Time Password (OTP) to the provided email for verification.
+- **Database Integration**: Saves user data to the database using Prisma and PostgreSQL.
+- **Dark Theme Support**: Switch between light and dark themes.
+- **Resend Integration**: Uses Resend service for sending OTP emails.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Next.js**: The React framework for production.
+- **TypeScript**: Typed JavaScript for enhanced code quality.
+- **Zod**: TypeScript-first schema declaration and validation library.
+- **React Hook Form**: Performant, flexible, and extensible forms with easy-to-use validation.
+- **Prisma**: Next-generation ORM for Node.js and TypeScript.
+- **PostgreSQL**: Open-source relational database.
+- **Framer Motion**: A production-ready motion library for React.
+- **shadcn/ui**: Beautifully crafted UI components.
+- **Resend**: Service for sending OTP emails.
 
-## Learn More
+## 📥 Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd your-repo-name
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Set up the database:
+   ```bash
+   npx prisma migrate dev
+   ```
+5. Configure your environment variables by copying `.env.sample` to `.env` and updating the values:
+   ```bash
+   cp .env.sample .env
+   ```
+6. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📧 OTP Email Verification
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Upon registration, an OTP password will be sent to the provided email for verification. Make sure to configure your Resend service provider settings in the `.env` file.
 
-## Deploy on Vercel
+## 🌐 Demo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Check out the live demo [here](link_to_your_demo).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Thanks to the developers of the libraries and tools used in this project.
+
+## 📝 Contact
+
+For any inquiries, please contact [your-email@example.com](mailto:your-email@example.com).
+
+---
+
+Feel free to customize this template further to fit your specific needs and project details!
