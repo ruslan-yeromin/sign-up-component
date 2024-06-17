@@ -108,7 +108,7 @@ export function ProfileForm({ className }: { className?: string }) {
               Start your 14-days free trial
             </h2>
             <p>
-              You're one step closer to delivering exceptional service at scale.
+              You&apos;re one step closer to delivering exceptional service at scale.
             </p>
             <FormField
               control={form.control}
@@ -128,7 +128,7 @@ export function ProfileForm({ className }: { className?: string }) {
                     <FormMessage />
                   ) : (
                     <FormDescription>
-                      It's best to sign up with your work email
+                      It&apos;s best to sign up with your work email
                     </FormDescription>
                   )}
                 </FormItem>
