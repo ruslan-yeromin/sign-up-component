@@ -6,7 +6,7 @@ export const sendVerificationCode = async (email: string, token: string) => {
   try {
     await resend.emails.send({
       from: "onboarding@resend.dev",
-      to: "prmoriarty213@gmail.com",
+      to: process.env.EMAIL_ADRESS ?? "default@example.com",
       subject: "Your two-factor authentication code",
       html: `<p>Your two-factor authentication code is ${token}</p>`,
     });
