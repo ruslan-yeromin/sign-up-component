@@ -1,10 +1,11 @@
-# 🌟 Responsive Registration Form Component
+# 🌟 Responsive Registration Form Component  
+  
+  This project features a fully responsive registration form component for a React and Next.js application. On PC, the form appears as a modal window, while on mobile phones, it slides up as a drawer that can be closed with a swipe. The project also supports a dark theme for better user experience.  
 
-This project features a fully responsive registration form component for a React and Next.js application. On PC, the form appears as a modal window, while on mobile phones, it slides up as a drawer that can be closed with a swipe. The project also supports a dark theme for better user experience.
+![Demo Video/GIF](link_to_your_demo)  
+  
 
-![Demo Video/GIF](link_to_your_demo)
-
-## 🚀 Features
+## 🚀 Features  
 
 - **Fully Responsive**: Works seamlessly across different screen sizes.
 - **Modal on PC**: Opens as a modal window for desktop users.
@@ -30,11 +31,11 @@ This project features a fully responsive registration form component for a React
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/yourusername/sign-up-form.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd your-repo-name
+   cd sign-up-form
    ```
 3. Install dependencies:
    ```bash
