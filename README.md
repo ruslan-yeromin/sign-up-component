@@ -1,6 +1,6 @@
-# 🌟 Responsive Registration Form Component  
+# 🌟 Responsive Sign-up Form Component  
   
-  This project features a fully responsive registration form component for a React and Next.js application. On PC, the form appears as a modal window, while on mobile phones, it slides up as a drawer that can be closed with a swipe. The project also supports a dark theme for better user experience.  
+  This project features a fully responsive sign-up form component for a React and Next.js application. On PC, the form appears as a modal window, while on mobile phones, it slides up as a drawer that can be closed with a swipe. The project also supports a dark theme for better user experience.  
 
 ![Demo Video/GIF](assets/demo.gif)  
   
